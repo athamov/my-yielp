@@ -37,7 +37,9 @@ function App({ signOut,user }) {
     <div className="App text-bg-secondary text-info">
       <div className="row">
         <h1 className="text-primary col-9">My Restaurants App</h1>
-        <button onClick={signOut} className="btn btn-warning text-light col-3">Sign Out</button>
+        <div>
+          <button onClick={signOut} className="btn btn-warning text-light col-3">Sign Out</button>
+        </div>
       </div>
       <h3>{user.userName}</h3>
 
